@@ -1,0 +1,10 @@
+{
+	"name": "edd-recently-viewed-items",
+	"version": "1.0.0",
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-autoprefixer": "^0.8.0",
+		"grunt-cli": "~0.1.9",
+		"grunt-wp-i18n": "^0.5.0"
+	}
+}
