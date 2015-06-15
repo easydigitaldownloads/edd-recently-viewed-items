@@ -3,7 +3,7 @@
  * Plugin Name: Easy Digital Downloads - Recently Viewed Items
  * Plugin URI: http://www.johnparris.com/wordpress-plugins/edd-recently-viewed-items
  * Description: Show your visitors the items they've recently viewed with this extension for Easy Digital Downloads.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: John Parris
  * Author URI: http://www.johnparris.com
  * Text Domain: edd-rvi
@@ -56,7 +56,7 @@ class EDD_Recently_Viewed_Items {
 
 		// Current version
 		if ( ! defined( 'EDD_RVI_VERSION' ) ) {
-			define( 'EDD_RVI_VERSION', '1.0' );
+			define( 'EDD_RVI_VERSION', '1.0.1' );
 		}
 
 		// Plugin dir path
