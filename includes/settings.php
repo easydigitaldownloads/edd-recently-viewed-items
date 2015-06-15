@@ -22,7 +22,7 @@ function edd_rvi_settings( $settings ) {
 
 		array(
 			'id'   => 'edd_rvi_checkout_heading',
-			'name' => __( 'Checkout Heading Text' ),
+			'name' => __( 'Checkout Heading Text', 'edd-rvi' ),
 			'desc' => sprintf( __( 'The heading text displayed on the checkout. Default: "Your Recently Viewed %s".', 'edd-rvi' ), edd_get_label_plural() ),
 			'type' => 'text',
 			'size' => 'regular',
@@ -39,7 +39,7 @@ function edd_rvi_settings( $settings ) {
 
 		array(
 			'id'   => 'edd_rvi_single_heading',
-			'name' => sprintf( __( 'Single %s Heading Text' ), edd_get_label_singular() ),
+			'name' => sprintf( __( 'Single %s Heading Text', 'edd-rvi' ), edd_get_label_singular() ),
 			'desc' => sprintf( __( 'The heading text displayed on single %1$s pages. Default: "Your Recently Viewed %2$s".', 'edd-rvi' ), strtolower( edd_get_label_singular() ), edd_get_label_plural() ),
 			'type' => 'text',
 			'size' => 'regular',
