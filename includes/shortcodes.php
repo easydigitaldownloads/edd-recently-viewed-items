@@ -24,15 +24,14 @@ function edd_rvi_shortcode( $atts, $content = null ) {
 			<?php } ?>
 
 			<ul class="edd-rvi-items-list">
-				<?php ob_start();
-				while ( $downloads->have_posts() ) : $downloads->the_post();
+				<?php while ( $downloads->have_posts() ) : $downloads->the_post();
 
-					$item = get_the_ID();
-					if ( ! edd_item_in_cart( $item ) ) { ?>
-						<li class="edd-rvi-item<?php if ( 'false' != $atts['image'] && has_post_thumbnail( get_the_ID() ) ) { echo ' image'; } ?>">
+					$item_id = get_the_ID();
+					if ( ! edd_item_in_cart( $item_id ) ) { ?>
+						<li class="edd-rvi-item<?php if ( 'true' == $atts['image'] && has_post_thumbnail( $item_id ) ) { echo ' image'; } ?>">
 							<a href="<?php the_permalink(); ?>">
-								<?php if ( 'false' != $atts['image'] && has_post_thumbnail( get_the_ID() ) ) {
-									echo get_the_post_thumbnail( get_the_ID(), apply_filters( 'edd_rvi_shortcode_image_size', array( 100, 100 ) ) );
+								<?php if ( 'true' == $atts['image'] && has_post_thumbnail( $item_id ) ) {
+									echo get_the_post_thumbnail( $item_id, apply_filters( 'edd_rvi_shortcode_image_size', array( 115, 115 ) ) );
 								}
 								the_title(); ?>
 							</a>
@@ -40,7 +39,7 @@ function edd_rvi_shortcode( $atts, $content = null ) {
 					<?php }
 
 				endwhile;
-				echo ob_get_clean();
+
 				wp_reset_postdata(); ?>
 			</ul>
 		</div>
