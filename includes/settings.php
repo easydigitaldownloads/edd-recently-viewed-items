@@ -7,7 +7,7 @@ function edd_rvi_settings( $settings ) {
 	$rvi_settings = array(
 		array(
 			'id'   => 'edd_rvi_header',
-			'name' => __( 'Recently Viewed Items', 'edd-rvi' ),
+			'name' => '<strong>' . __( 'Recently Viewed Items', 'edd-rvi' ) . '</strong>',
 			'type' => 'header',
 			'size' => 'regular'
 		),
