@@ -56,7 +56,7 @@ class EDD_RVI_Widget extends WP_Widget {
 			'height'  => 350,
 		);
 
-		$this->WP_Widget( 'edd-rvi-widget', sprintf( __( 'Recently Viewed %s', 'edd-rvi' ), edd_get_label_plural() ), $widget_ops, $control_ops );
+		parent::__construct( 'edd-rvi-widget', sprintf( __( 'Recently Viewed %s', 'edd-rvi' ), edd_get_label_plural() ), $widget_ops, $control_ops );
 	}
 
 	/**
