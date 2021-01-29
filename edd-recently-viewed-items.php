@@ -5,7 +5,7 @@
  * Description: Show your visitors the items they've recently viewed with this extension for Easy Digital Downloads.
  * Version: 1.0.2
  * Author: Sandhills Development, LLC
- * Author URI: http://www.sandhillsdev.com
+ * Author URI: https://www.sandhillsdev.com
  * Text Domain: edd-rvi
  */
 
