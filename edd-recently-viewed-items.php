@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Easy Digital Downloads - Recently Viewed Items
- * Plugin URI: http://www.johnparris.com/wordpress-plugins/edd-recently-viewed-items
+ * Plugin URI: https://easydigitaldownloads.com/downloads/recently-viewed-items/
  * Description: Show your visitors the items they've recently viewed with this extension for Easy Digital Downloads.
  * Version: 1.0.2
- * Author: John Parris
- * Author URI: http://www.johnparris.com
+ * Author: Sandhills Development, LLC
+ * Author URI: https://www.sandhillsdev.com
  * Text Domain: edd-rvi
  */
 
@@ -121,7 +121,7 @@ class EDD_Recently_Viewed_Items {
 		add_action( 'template_redirect', array( $this, 'setup' ), 100 );
 
 		if ( class_exists( 'EDD_License' ) ) {
-			$license = new EDD_License( __FILE__, 'Recently Viewed Items', EDD_RVI_VERSION, 'John Parris' );
+			$license = new EDD_License( __FILE__, 'Recently Viewed Items', EDD_RVI_VERSION, 'Sandhills Development, LLC', null, null, 538717 );
 		}
 	}
 

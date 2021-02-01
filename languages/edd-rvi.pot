@@ -1,4 +1,4 @@
-# Copyright (C) 2015 John Parris
+# Copyright (C) 2021 Sandhills Development, LLC
 # This file is distributed under the same license as the Easy Digital Downloads - Recently Viewed Items package.
 msgid ""
 msgstr ""
@@ -159,7 +159,7 @@ msgid "Easy Digital Downloads - Recently Viewed Items"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.johnparris.com/wordpress-plugins/edd-recently-viewed-items"
+msgid "https://easydigitaldownloads.com/downloads/recently-viewed-items/"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -169,9 +169,9 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "John Parris"
+msgid "Sandhills Development, LLC"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.johnparris.com"
+msgid "http://www.sandhillsdev.com"
 msgstr ""

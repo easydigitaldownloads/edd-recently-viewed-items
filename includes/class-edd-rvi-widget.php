@@ -4,7 +4,7 @@
  *
  * Displays the specified number of recently viewed downloads.
  *
- * @author John Parris
+ * @author Sandhills Development, LLC
  * @since 1.0
  */
 
